@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taksasi Buah Sawit</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container py-5">
+    <div class="text-center mb-4">
+        <img src="assets/img/logo.png" alt="Logo Perusahaan" class="img-fluid" style="max-height: 150px;">
+        <h1 class="fw-bold mt-3">Project Taksasi Buah Sawit</h1>
+    </div>
+    
+    <div class="card shadow-lg p-4">
+        <form id="taksasiForm">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Blok yang Dipanen</label>
+                    <div id="blok" class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-2">
+                        <!-- Multiple checkboxes with Bootstrap responsive columns -->
+                       <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S62" id="blokS62">
+                <label class="form-check-label" for="blokS62">
+                    S62
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S61" id="blokS61">
+                <label class="form-check-label" for="blokS61">
+                    S61
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S60" id="blokS60">
+                <label class="form-check-label" for="blokS60">
+                    S60
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S59" id="blokS59">
+                <label class="form-check-label" for="blokS59">
+                    S59
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R61" id="blokR61">
+                <label class="form-check-label" for="blokR61">
+                    R61
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Q61" id="blokQ61">
+                <label class="form-check-label" for="blokQ61">
+                    Q61
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Q60" id="blokQ60">
+                <label class="form-check-label" for="blokQ60">
+                    Q60
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Q59" id="blokQ59">
+                <label class="form-check-label" for="blokQ59">
+                    Q59
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Q58" id="blokQ58">
+                <label class="form-check-label" for="blokQ58">
+                    Q58
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="Q57" id="blokQ57">
+                <label class="form-check-label" for="blokQ57">
+                    Q57
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R60" id="blokR60">
+                <label class="form-check-label" for="blokR60">
+                    R60
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R59" id="blokR59">
+                <label class="form-check-label" for="blokR59">
+                    R59
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R58" id="blokR58">
+                <label class="form-check-label" for="blokR58">
+                    R58
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R57" id="blokR57">
+                <label class="form-check-label" for="blokR57">
+                    R57
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R56" id="blokR56">
+                <label class="form-check-label" for="blokR56">
+                    R56
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R55" id="blokR55">
+                <label class="form-check-label" for="blokR55">
+                    R55
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="R54" id="blokR54">
+                <label class="form-check-label" for="blokR54">
+                    R54
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S55" id="blokS55">
+                <label class="form-check-label" for="blokS55">
+                    S55
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S54" id="blokS54">
+                <label class="form-check-label" for="blokS54">
+                    S54
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S53" id="blokS53">
+                <label class="form-check-label" for="blokS53">
+                    S53
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S52" id="blokS52">
+                <label class="form-check-label" for="blokS52">
+                    S52
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S51" id="blokS51">
+                <label class="form-check-label" for="blokS51">
+                    S51
+                </label>
+            </div>
+        </div>
+        <div class="col">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="S50" id="blokS50">
+                <label class="form-check-label" for="blokS50">
+                    S50
+                </label>
+            </div>
+        </div>
+                        <!-- Repeat for each checkbox as shown above -->
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="akp" class="form-label">AKP (Angka Kerapatan Panen)</label>
+                    <input type="number" id="akp" class="form-control" min="0" required>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="bjr" class="form-label">BJR (Berat Janjang Rata-rata)</label>
+                    <input type="number" id="bjr" class="form-control" min="0" step="0.01" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="tenagaKerja" class="form-label">Tenaga Kerja</label>
+                    <input type="number" id="tenagaKerja" class="form-control" min="1" required>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mb-3">Hitung</button>
+        </form>
+
+        <div id="hasilTaksasi" class="alert alert-info d-none"></div>
+
+        <div class="d-flex gap-2 mt-4">
+            <button id="copyToClipboard" class="btn btn-secondary w-50">Salin ke Clipboard</button>
+            <button id="saveToExcel" class="btn btn-success w-50">Simpan ke Excel</button>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+<script src="assets/js/taksasi.js"></script>
+</body>
+</html>
